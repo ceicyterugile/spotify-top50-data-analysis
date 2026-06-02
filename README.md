@@ -1,13 +1,11 @@
-# spotify-top50-data-analysis
-
 # Spotify Top 50 Tracks: Exploratory Data Analysis & Product Metrics
 
-## 📌 Project Context & Strategic Business Goal
+## Project Context & Strategic Business Goal
 In this project, I act as an internal Data Analyst within the Spotify Content Analysis team. The objective is to evaluate the global **Top 50 Spotify Tracks dataset** to programmatically discover, clean, and quantify what specific audio characteristics and artist parameters drive a mainstream hit song. 
 
 The analytical pipeline is designed to balance technical data engineering with high-level business storytelling, translating raw audio variables into actionable product intelligence for Product Managers and Senior Data Scientists.
 
-## 📋 Core Requirements & Technical Objectives
+## Core Requirements & Technical Objectives
 - **Data Ingestion:** Sourced raw streaming configurations from Kaggle and programmatically mapped them into memory using **Pandas DataFrame architectures**.
 - **Data Cleansing & Integrity Audits:** 
   - Isolated and treated missing data fields.
@@ -36,13 +34,8 @@ The analytical pipeline is designed to balance technical data engineering with h
 * Conducted granular behavioral comparisons evaluating **Danceability, Loudness, and Acousticness** distribution variations across core competitive genres: *Pop, Hip-Hop/Rap, Dance/Electronic, and Alternative/Indie*.
 * Measured multi-variable correlation coefficients to isolate strong positive, strong negative, and linear feature relationships.
 
-## 📊 Evaluation Standards & Code Quality
-To meet strict production standards, this repository maintains high-quality execution across these engineering pillars:
-- **PEP8 Compliance:** Code structures are clean, readable, and follow Python layout conventions.
-- **Optimization:** Utilized optimized internal Pandas data structures (Series and vectorized operations) rather than slow, manual Python loops to maximize processing speeds.
-- **Clarity over Complexity:** All markdown cells within the notebook explicitly articulate what business questions are being tested, what data parameters were returned, and what those results mean for the product roadmap.
 
-## 🚀 Analytical Refinements & Future Improvements
+##  Analytical Refinements & Future Improvements
 1. **Feature Engineering:** Integrating external streaming metrics (e.g., active user skip rates and regional location tags) to expand the depth of behavior mapping.
 2. **Advanced Modeling:** Transitioning from linear correlation tests to non-linear clustering (e.g., K-Means) to categorize distinct "hit blueprints" based on audio properties.
 
